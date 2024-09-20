@@ -1,0 +1,6 @@
+DAYS=1000
+MONTHS=(1000//12)//30
+YEARS=1000//365
+rem_days=(DAYS%365)%30
+print(f"MONTHS:{MONTHS},YEARS:{YEARS},REM DAYS:{rem_days}")
+
